@@ -87,5 +87,5 @@ def decode(img_path, out_path):
 	open(out_path, "wb").write(data)
 	
 	
-encode("test.jpg", "data.txt", "out.bmp")
-decode("out.bmp", "decoded.txt")
+encode("test.jpg", "data.txt", "out.png")
+decode("out.png", "decoded.txt")
