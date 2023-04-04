@@ -7,7 +7,7 @@ Method for undetectably embedding arbitrary data into image.
 ## Details
 
 Each pixel in the target image is made up of a tuple `(r, g, b)`,
-`r`, `g, and `g` numbers ranging from 0 to 255. The data to be
+`r`, `g`, and `b` numbers ranging from 0 to 255. The data to be
 embedded is considered as a bitstring.
 
 For each bit in the data, if the bit is a one, the `r` value is
